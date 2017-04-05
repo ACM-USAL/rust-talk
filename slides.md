@@ -194,8 +194,6 @@ error: `v` does not live long enough
 
 # ADT
 
- * "Enums con valores"
-
 ```rust
 enum JsonValue {
     Null,
