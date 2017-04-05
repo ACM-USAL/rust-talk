@@ -290,9 +290,15 @@ fn partition<T: PartialOrd + Send>(xs: &mut [T]) -> usize {
 
 ---
 
-# Cargo
+# Ecosistema
+
+## Cargo, el gestor de paquetes
 
  * https://crates.io
+
+## Docs.rs, hosting gratuito para documentación
+
+ * https://docs.rs
 
 ---
 
