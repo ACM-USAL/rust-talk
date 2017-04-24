@@ -122,7 +122,7 @@ fn add_to_vector(v: &mut Vec<i32>, value: i32) { // Nótese el &mut, recibe una
 
 fn main() {
     let mut v = vec![0, 1, 2];
-    print_vector(&mut v, 4); // "Prestamos" el vector a la función
+    add_to_vector(&mut v, 4); // "Prestamos" el vector a la función
     assert_eq!(v.len(), 4); // Ya es nuestro otra vez.
 }
 ```
